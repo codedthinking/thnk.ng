@@ -3,10 +3,10 @@
     <head>
         <title>{{ page.title }}</title>
      <meta charset="UTF-8" />
-     <meta http-equiv="refresh" content="0; URL={{ page.url }}" />
+     <meta http-equiv="refresh" content="0; URL={{ page.new_url }}" />
    </head>
    <body>
-     <p>This page has moved. If you are not redirected, click <a href="{{ page.url }}">here</a>.</p>
+     <p>This page has moved. If you are not redirected, click <a href="{{ page.new_url }}">here</a>.</p>
      {% include plausible.html %}
    </body>
 </html>
